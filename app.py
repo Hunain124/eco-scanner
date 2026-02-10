@@ -36,3 +36,17 @@ if api_key:
         st.write(response.text)
 else:
     st.info("Enter API Key to enable Gemini 3 features.")
+
+    # --- Footer Section ---
+st.markdown("---")
+st.markdown(
+    """
+    <div style="text_align: center;">
+        <p style="color: #6c757d; font-size: 0.9em;">
+            <strong>Designed and Developed by Hunain Shahid</strong><br>
+            Built for the <b>Google Gemini 3 Global Hackathon 2026</b>
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
