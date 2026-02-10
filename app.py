@@ -36,7 +36,7 @@ if api_key:
     try:
         genai.configure(api_key=api_key)
         # Using the latest Gemini 1.5 model (Gemini 3 family base)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('models/gemini-1.5-flash-latest')
 
         uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
