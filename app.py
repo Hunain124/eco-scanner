@@ -13,7 +13,7 @@ if api_key:
         genai.configure(api_key=api_key)
         
         # Try a more direct way to call the model
-        model = genai.GenerativeModel('gemini-1.5-flash-latest')
+        model = genai.GenerativeModel('gemini-1.5-pro')
 
         uploaded_file = st.file_uploader("Upload waste image...", type=["jpg", "jpeg", "png"])
 
